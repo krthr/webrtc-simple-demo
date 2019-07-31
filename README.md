@@ -113,6 +113,8 @@ Intercambio de mensajes de control entre los peers.
 
 ## 4. [¡Hola mundo!](https://webrtc-demo-simple.web.app/?room=) https://bit.ly/2KcbnSF
 
+![title](https://giphygifs.s3.amazonaws.com/media/13HgwGsXF0aiGY/giphy.gif)
+
  > Para usar el demo, agrega un id único al final de `?room=` y dáselo a otra persona para hacer una vídeo llamada
 
 ***
