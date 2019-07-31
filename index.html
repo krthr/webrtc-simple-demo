@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebRTC Demo</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app" class="uk-background-muted">
+      <div class="uk-container uk-position-center">
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+          <div id="local-container" hidden>
+            <div class="uk-card uk-card-default uk-card-body">
+              <video id="local" autoplay muted></video>
+            </div>
+          </div>
+          <div id="remote-container" hidden>
+            <div class="uk-card uk-card-default uk-card-body">
+              <video id="remote" autoplay></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="uk-flex-center" uk-grid>
+          <button
+            id="call"
+            class="uk-button uk-button-primary"
+            onclick="javascript:call()"
+          >
+            Unirme
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+    <!-- Firebase -->
+
+    <script src="./signaling.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>

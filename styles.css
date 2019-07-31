@@ -1,0 +1,13 @@
+#app {
+  height: 100vh;
+  width: 100vw;
+}
+
+#local,
+#remote {
+  width: 100%;
+}
+
+.uk-card-body {
+  padding: 0;
+}
